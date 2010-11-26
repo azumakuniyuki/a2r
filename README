@@ -1,0 +1,27 @@
+$Id: README,v 1.1 2010/11/26 14:52:41 ak Exp $
+--------------------------------------------------------------------------------
+a2r is a converter which converts from the arabic numerals to the Roman numerals
+--------------------------------------------------------------------------------
+
+* HOW TO BUILD
+	# make
+
+* INSTALL(->/usr/local/bin)
+	# make install
+
+* UNINSTALL
+	# make uninstall
+
+* USAGE
+	> a2r -h
+	  Shows help message of this commnad
+
+	> a2r 123
+	  CXXIII
+
+	> a2r XII
+	  12
+
+	> echo 456 | a2r
+	  CDLVI
+
