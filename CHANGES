@@ -1,25 +1,27 @@
 -----------------------------------------------------------------------
-1.0.5	2009-02-02
-	* New option: -A(Medieval Abbreviation), 5 is A, 70 is S,800 is
-	  W,and so on.
+1.0.6   2013-08-31
+    * Indent style has been updated: 8 width tab => 4 space characters.
+1.0.5   2009-02-02
+    * New option: -A(Medieval Abbreviation), 5 is A, 70 is S,800 is
+      W,and so on.
 
-1.0.4	2002-12-30
-	* Remove reverse Lookup Option -r.
-	* The Number(Arabic, Roman) is detected automatically.
+1.0.4   2002-12-30
+    * Remove reverse Lookup Option -r.
+    * The Number(Arabic, Roman) is detected automatically.
 
-1.0.3	2001-01-23
-	* a2r detects the number came from STDIN Automatically.
-	* -s ( Read From STDIN ) option has been removed.
-	* Support strcpy and strcat by using The NOSTRL Build Macro.
+1.0.3   2001-01-23
+    * a2r detects the number came from STDIN Automatically.
+    * -s ( Read From STDIN ) option has been removed.
+    * Support strcpy and strcat by using The NOSTRL Build Macro.
 
-1.0.2	2001-01-05
-	* strcat -> strlcat, strcpy -> strlcpy (OpenBSD, #ifdef)
+1.0.2   2001-01-05
+    * strcat -> strlcat, strcpy -> strlcpy (OpenBSD, #ifdef)
 
-1.0.1	1997-03-28
-	* -r option to reverse lookup ( Roman -> Arabic )
-	* Use exit status EXIT_SUCCESS or EXIT_FAILURE (stdlib.h)
+1.0.1   1997-03-28
+    * -r option to reverse lookup ( Roman -> Arabic )
+    * Use exit status EXIT_SUCCESS or EXIT_FAILURE (stdlib.h)
 
-1.0.0	1997-02-09
-	* Initial version: a2r is a converter which converts from the 
-	  arabic numerals to the Roman numerals.
+1.0.0   1997-02-09
+    * Initial version: a2r is a converter which converts from the 
+      arabic numerals to the Roman numerals.
 -----------------------------------------------------------------------
