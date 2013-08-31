@@ -4,23 +4,23 @@ a2rはローマ数字とアラビア数字の変換コマンドです
 --------------------------------------------------------------------------------
 
 * コンパイル方法
-	# make
+    # make
 
 * インストール(->/usr/local/bin)
-	# make install
+    # make install
 
 * 削除
-	# make uninstall
+    # make uninstall
 
 * 使い方
-	> a2r -h
-	  コマンドのヘルプがでます
+    > a2r -h
+      コマンドのヘルプがでます
 
-	> a2r 123
-	  CXXIII
+    > a2r 123
+      CXXIII
 
-	> a2r XII
-	  12
+    > a2r XII
+      12
 
-	> echo 456 | a2r
-	  CDLVI
+    > echo 456 | a2r
+      CDLVI
