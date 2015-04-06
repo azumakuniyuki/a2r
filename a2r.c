@@ -54,6 +54,11 @@
 #include <ctype.h>
 #include <math.h>
 
+#ifdef HAVE_LIBBSD
+extern size_t strlcpy(char *dst, const char *src, size_t size);
+extern size_t strlcat(char *dst, const char *src, size_t size);
+#endif
+
 #define A2R_OPTIONS "AChMv"
 #define A2R_MAXNUMBER   4999
 #define MAX_DIGITS  16
