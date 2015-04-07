@@ -1,5 +1,5 @@
 # Makefile -- makefile(GNU) for a2r
-CC	= gcc
+CC	= cc
 CFLAGS	=  -std=c99 -O2 -Wall -Wextra -pipe
 LDFLAGS = -lm
 PREFIX	= /usr/local

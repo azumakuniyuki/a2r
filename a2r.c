@@ -63,11 +63,6 @@ extern size_t strlcat(char *dst, const char *src, size_t size);
 # define isnumber(A2R_IDX) (!(isalpha((A2R_IDX))))
 #endif
 
-/* FIXME, Roman Numerals are capable of representing
- * the same infinite range of numbers that our own
- * Arabic-based numeral system is capable of representing.
- *
- * The only limit should be LLONG_MAX */
 #define A2R_OPTIONS "AChMv"
 #define A2R_MAXNUMBER   4999
 #define MAX_DIGITS  16
